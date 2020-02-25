@@ -21,7 +21,8 @@ public class NewTest {
 	  driver = new ChromeDriver();
 	  driver.manage().window().maximize();
 	  driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-	  driver.get("https://www.gmail.com/");	  
+	  driver.get("https://www.gmail.com/");	
+	  
 	  }
 	
   @Test
@@ -33,7 +34,6 @@ public class NewTest {
 	    
   }
     
-
   @AfterTest
   public void afterTest() {
 	  driver.quit();
@@ -41,3 +41,6 @@ public class NewTest {
   }
 
 }
+
+
+
