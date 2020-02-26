@@ -21,6 +21,7 @@ public class CSV {
 			while ((testRow = br.readLine()) != null) {
 				String[] line = testRow.split(",");
 				data.add(line);
+		
 			}
 		} catch (FileNotFoundException e) {
 			System.out.println("ERROR: File not found " + filename);
