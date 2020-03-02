@@ -25,20 +25,14 @@ public class NewaccountSDET {
 		WebElement verifyPassword = driver.findElement(By.xpath("//input[@id='MainContent_txtVerifyPassword']"));
 		WebElement submit = driver.findElement(By.xpath("//input[@id='MainContent_btnSubmit']"));
 		
-		
-		
-		
-		
 	}
 	
 	@Test
 	public void runtest() {
-		driver.findElement(e)
+		
 	}
 	
-	
-	
-	
+
 	@Before
 	public void setUp() {
 		com.basic.Driverfactory.open("chrome");
@@ -53,7 +47,6 @@ public class NewaccountSDET {
 	public static List<String[]> getdata(){
 		return Utilities.CSV.get("/Users/waquaralam/Desktop/UserAccounts.csv");
 	}
-	
 	
 	
 

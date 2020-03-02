@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.basic.Assert_Example">
+      <class name="Datadriven.ReadDataprovider">
         <methods>
-          <include name="beforeTest"/>
-          <include name="waq"/>
-          <include name="afterTest"/>
+          <include name="login" invocation-numbers="0 1 2 3"/>
         </methods>
-      </class> <!-- com.basic.Assert_Example -->
+      </class> <!-- Datadriven.ReadDataprovider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
