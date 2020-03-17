@@ -1,13 +1,12 @@
 package Junit;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.After;
 import org.junit.Before;
-import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 
 import junit.framework.Assert;
+import org.testng.annotations.Test;
 
 class junitpagetitle {
 	WebDriver driver;
