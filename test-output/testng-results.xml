@@ -1,39 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="checkingOrder" duration-ms="98" started-at="2020-03-17T05:19:02Z" finished-at="2020-03-17T05:19:02Z">
+  <suite name="Default suite" duration-ms="377" started-at="2020-05-10T19:22:12Z" finished-at="2020-05-10T19:22:12Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="98" started-at="2020-03-17T05:19:02Z" finished-at="2020-03-17T05:19:02Z">
-      <class name="checkingOrder.order">
-        <test-method status="PASS" signature="tearDown()[pri:1, instance:checkingOrder.order@51565ec2]" name="tearDown" duration-ms="17" started-at="2020-03-17T05:19:02Z" finished-at="2020-03-17T05:19:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="login()[pri:2, instance:checkingOrder.order@51565ec2]" name="login" duration-ms="2" started-at="2020-03-17T05:19:02Z" finished-at="2020-03-17T05:19:02Z">
+    <test name="Default test" duration-ms="377" started-at="2020-05-10T19:22:12Z" finished-at="2020-05-10T19:22:12Z">
+      <class name="Datadriven.ReadDataprovider">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Datadriven.ReadDataprovider@1593948d]" name="login" duration-ms="18" started-at="2020-05-10T19:22:12Z" data-provider="getdata" finished-at="2020-05-10T19:22:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ellie Prynne]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ep@testemail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ep1password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ep1password]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="setUp()[pri:3, instance:checkingOrder.order@51565ec2]" name="setUp" duration-ms="4" started-at="2020-03-17T05:19:02Z" finished-at="2020-03-17T05:19:02Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Datadriven.ReadDataprovider@1593948d]" name="login" duration-ms="3" started-at="2020-05-10T19:22:12Z" data-provider="getdata" finished-at="2020-05-10T19:22:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shawn Thompson]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sw@testemail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sw2password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sw2password]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-      </class> <!-- checkingOrder.order -->
-      <class name="checkingOrder.secondorder">
-        <test-method status="PASS" signature="newsetUp()[pri:4, instance:checkingOrder.secondorder@482f8f11]" name="newsetUp" duration-ms="2" started-at="2020-03-17T05:19:02Z" finished-at="2020-03-17T05:19:02Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Datadriven.ReadDataprovider@1593948d]" name="login" duration-ms="2" started-at="2020-05-10T19:22:12Z" data-provider="getdata" finished-at="2020-05-10T19:22:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Michael Lane]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ml@testemail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ml3password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ml3password]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- newsetUp -->
-        <test-method status="PASS" signature="newlogin()[pri:5, instance:checkingOrder.secondorder@482f8f11]" name="newlogin" duration-ms="5" started-at="2020-03-17T05:19:02Z" finished-at="2020-03-17T05:19:02Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Datadriven.ReadDataprovider@1593948d]" name="login" duration-ms="3" started-at="2020-05-10T19:22:12Z" data-provider="getdata" finished-at="2020-05-10T19:22:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Janelle Von]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jv@testemail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[jv4password]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- newlogin -->
-        <test-method status="PASS" signature="newtearDown()[pri:6, instance:checkingOrder.secondorder@482f8f11]" name="newtearDown" duration-ms="2" started-at="2020-03-17T05:19:02Z" finished-at="2020-03-17T05:19:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- newtearDown -->
-      </class> <!-- checkingOrder.secondorder -->
-    </test> <!-- Test -->
-  </suite> <!-- checkingOrder -->
+        </test-method> <!-- login -->
+      </class> <!-- Datadriven.ReadDataprovider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
