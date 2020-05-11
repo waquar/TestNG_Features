@@ -1,10 +1,14 @@
 package Datadriven;
 
+
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+import Utilities.ExceltoMapinList;
 
 public class ReadDataprovider {
 	
@@ -35,5 +39,6 @@ public class ReadDataprovider {
 	  return Utilities.Excel.get("/Users/waquaralam/Desktop/emailexcel.xls");
 	  
   }
+ 
   
 }
